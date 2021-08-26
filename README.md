@@ -6,9 +6,10 @@ SEMAF Flexible Semantic Mapping Framework Proof of Concept
 * SEMAF final report [Zenodo](http://doi.org/10.5281/zenodo.4651421)
 
 # Installation
-Clone Apache Superset visualization framework
+Clone Apache Superset visualization framework and enable Apache Drill connection
 ```
 git clone https://github.com/apache/superset
+echo 'sqlalchemy-drill' > ./superset/docker/requirements-local.txt
 docker-compose up
 ```
 
