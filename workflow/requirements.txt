@@ -1,0 +1,7 @@
+simplejson
+requests
+httpretty
+numpy
+pillow
+pandas
+skosmos-client
